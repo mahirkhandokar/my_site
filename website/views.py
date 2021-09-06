@@ -23,3 +23,7 @@ def gui():
 @views.route('/schoolProjects', methods=['GET'])
 def other_projects():
     return render_template('schoolProjects.html')
+
+@views.route('/websites', methods=['GET'])
+def websites():
+    return render_template('website.html')
